@@ -23,11 +23,12 @@
 function ReverseString(sentence){
     let final = ''
     let rev_arr = sentence.split(' ').map((word)=>{
-        return word.split('').reverse().join('')
+        return word.split('').reverse().join('') 
         
         
     })
-    // console.log(rev_arr)
-    console.log(rev_arr.join(" "))
+    console.log(rev_arr) // [ 'olleH', 'I', 'ma', 'EDS' ]
+
+    console.log(rev_arr.join(" ")) // olleH I ma EDS
 }
-ReverseString("Hello I am SDE")
+ReverseString("Hello I am SDE 2")
