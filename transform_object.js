@@ -1,7 +1,10 @@
 const object1 = { a: 1, b: 2, c: 3 }
 const new_obj={}
 for (key in object1){
-    new_obj[key] = object1[key]*2
+    new_key = key.charCodeAt(0)
+    final = String.fromCharCode(new_key+1)
+
+    new_obj[final] = object1[key]*2
 }
 console.log(new_obj)
 
