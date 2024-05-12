@@ -1,0 +1,15 @@
+= (Easy) Sum: Develop a function that adds numbers by accepting one number at a time, allow
+repeated calls until no more nembers are provided.
+®= (Medium) Flatten : Create a function that recursively reduces the nesting of an array to a sing
+effectively flattening it."
+*= [Medium) Event Emitter: Create a class that supports event subscription, emission, and callbe
+triggering. Subscription objects are returned and can self-unsubscribe.
+= (Medium] Debounce: Create a debounce function that includes a cancel method to cancel d
+invocations and a flush method to immediately execute them."
+® [Medium] getElementsByClassName: Develop a function to retrieve all DOM elements that h
+specihed classes.
+*= [Medium] Promise.all : Create an implementation of the Promise.all) function that resolves to
+of results if all the input elements are resolved, and rejects otherwise.
+® [Hard) Deep Clone: Develop a function that performs a deep copy of a value while handling c
+references
+® [Hard] JSON.stringify: Create a function that converts a JavaScript value into a JSON string.
