@@ -6,7 +6,7 @@ const capitalize = function (str_array) {
   let capitalized = str_array.map((elems) => {
     //   console.log(elems)
     //   return (elems.charAt(0).toUpperCase() + elems.slice(1).toLowerCase());
-    return elems.toUpperCase();
+    return elems.charAt(0).toUpperCase();
     // return capital
   });
   return capitalized;
@@ -27,4 +27,4 @@ const sumOfSquares = function (num_array) {
 
 console.log(sumOfSquares([3, 9, 8, 12]));
 console.log(filterLength(["hello", "john", "Harry", "Sam"], 5));
-console.log(capitalize(["hello", "john", "Harry", "Sam"], 5));
+console.log(capitalize(["hello jake", "john", "Harry", "Sam"], 5));

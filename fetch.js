@@ -1,10 +1,11 @@
 // Fetch API -- Get data
 async function Request() {
   try {
-    let response = await fetch("https://jsonplacehlder.typicode.com/todos");
+    let response = await fetch("https://jsonplaceholder.typicode.com/todos");
     if (response.status == 200) {
       console.log(response.isok);
-      let data = await response.text();
+      let data = await response.json();
+      // let data = await response.text();
       return data;
     }
   } catch (err) {

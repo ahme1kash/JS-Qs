@@ -1,0 +1,121 @@
+1. Destructuring and Default Parameters
+Write a function getUserInfo that takes an object representing a user with properties name, age, and location. The function should return a string with the user's details, using default values if some properties are missing.
+
+2. Arrow Functions and this Context
+Demonstrate the difference in behavior of this between regular functions and arrow functions using a code example.
+
+3. Promises and Async/Await
+Create a function fetchUserData that simulates fetching data from an API using a Promise, and another function getUserData that uses async/await to handle the data.
+
+4. Spread and Rest Operators
+Write a function mergeArrays that merges multiple arrays into one using the spread operator, and a function getSum that returns the sum of its arguments using the rest operator.
+
+5. Map, Filter, and Reduce
+Given an array of objects with name and age, write filterAdults to filter out those under 18, and averageAge to calculate the average age using filter, map, and reduce.
+
+6. Modules and Import/Export
+Create mathUtils.js with add and subtract functions, and app.js to import and use these functions.
+
+7. Object Property Shorthand and Computed Property Names
+Write a function createPerson that returns an object with properties name, age, and a computed isAdult property.
+
+8. Template Literals
+Write a function generateGreeting using template literals to produce a personalized message based on name and age.
+
+9. Class and Inheritance
+Create a Person class with a method greet and extend it with a Student class that includes studentId and overrides greet.
+
+10. Closures
+Write a function createCounter that returns another function to maintain a counter across calls.
+
+11. Array Destructuring
+Given an array of numbers, write a function swapFirstLast that swaps the first and last elements using array destructuring.
+
+12. Callback Functions
+Write a function processArray that takes an array and a callback function. The callback should be called with each element of the array.
+
+13. Currying
+Implement a curried version of a function multiply that takes two numbers and returns their product.
+
+14. Debouncing
+Implement a debounce function that limits the rate at which a function can be executed.
+
+15. Throttling
+Create a throttle function that ensures a function is only called at most once in a specified period.
+
+16. Memoization
+Write a function memoize that caches the results of an expensive computation to improve performance.
+
+17. Prototype Chain
+Explain and demonstrate the concept of the prototype chain with an example involving object creation and inheritance.
+
+18. Set and Map
+Use Set to remove duplicates from an array, and Map to store key-value pairs and retrieve values by keys.
+
+19. Symbol and Symbol.iterator
+Create a custom iterable object using the Symbol.iterator and demonstrate its usage.
+
+20. Error Handling with try/catch
+Write a function parseJSON that safely parses JSON strings and handles errors using try/catch.
+
+21. Template Literals and Multiline Strings
+Write a function formatAddress that takes an object with address details and returns a formatted multiline string using template literals.
+
+22. Functional Programming: map, filter, reduce
+Given an array of numbers, write functions double, filterEvens, and sum using map, filter, and reduce respectively.
+
+23. IIFE (Immediately Invoked Function Expression)
+Explain and demonstrate the use of an IIFE with an example.
+
+24. Promises: All and Race
+Write examples demonstrating the usage of Promise.all and Promise.race.
+
+25. Object.freeze and Object.seal
+Explain and demonstrate the difference between Object.freeze and Object.seal.
+
+26. Spread Operator with Objects
+Merge two objects using the spread operator, and explain how it differs from Object.assign.
+
+27. Event Loop and Asynchronous Execution
+Explain the JavaScript event loop with an example involving setTimeout, Promises, and a synchronous operation.
+
+28. Template Literals with Expressions
+Create a function that returns a string with a calculated expression embedded within it using template literals.
+
+29. Map vs Object
+Explain the differences between Map and Object for storing key-value pairs, and give an example of when to use each.
+
+30. Function Binding
+Write a function that demonstrates the use of Function.prototype.bind to set this context in a function.
+
+31. Custom Iterable with Generators
+Create a custom iterable object using a generator function.
+
+32. WeakMap and WeakSet
+Explain the difference between WeakMap and Map, and WeakSet and Set, with examples of their use cases.
+
+33. Tagged Template Literals
+Create a tagged template literal function that processes a template string and its interpolated values.
+
+34. Destructuring with Renaming
+Destructure an object into variables with different names from the object’s property names.
+
+35. String Methods: includes, startsWith, endsWith
+Demonstrate the usage of includes, startsWith, and endsWith with examples.
+
+36. Async Generators
+Write an async generator function that yields values asynchronously and demonstrate its usage with for await...of.
+
+37. Proxy and Reflect API
+Create a Proxy object to intercept and log operations on another object, and use the Reflect API to perform default operations.
+
+38. Optional Chaining and Nullish Coalescing
+Use optional chaining and nullish coalescing to safely access deeply nested object properties and provide default values.
+
+39. Promise Chaining
+Create a series of dependent asynchronous operations using promise chaining.
+
+40. Destructuring Nested Objects and Arrays
+Given a nested object and array, use destructuring to extract specific values into variables.
+
+These questions cover a broad spectrum of JavaScript topics, from basic concepts to more advanced features and best practices. They are designed to help you deepen your understanding of JavaScript and ES6+ features.

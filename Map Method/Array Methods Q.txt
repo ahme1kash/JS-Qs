@@ -1,0 +1,57 @@
+Map
+Transforming Data: Given an array of user objects, each with a name and birthYear, use map to create an array of objects with name and age (calculated based on the current year).
+Formatting Strings: Given an array of sentences, use map to convert the first letter of each word in each sentence to uppercase.
+Transforming Nested Arrays: Given an array of arrays containing numerical grades, use map to convert each grade to a letter grade (A, B, C, etc.).
+Generating HTML: Given an array of strings, use map to generate an array of HTML <li> elements as strings.
+Calculating Discounts: Given an array of product objects with price and discount properties, use map to calculate the final price for each product after applying the discount.
+Filter
+Filtering by Criteria: Given an array of objects representing students with properties name and grade, use filter to get only the students who have grades above a certain threshold.
+Removing Duplicates: Given an array of numbers, use filter in combination with indexOf to remove duplicate numbers.
+Finding Valid Users: Given an array of user objects with properties username, email, and active, use filter to get only the active users.
+Excluding Certain Elements: Given an array of strings, use filter to remove all strings that contain numbers.
+Selecting Specific Properties: Given an array of objects with various properties, use filter to select objects that have a specific property defined.
+Every
+Consistency Check: Given an array of objects representing products with price and inStock properties, use every to check if all products are in stock.
+Validation of Usernames: Given an array of usernames, use every to check if all usernames are at least 6 characters long.
+Homogeneity Check: Given an array of numbers, use every to check if all numbers are integers.
+String Length Check: Given an array of sentences, use every to check if all sentences have more than 10 words.
+Data Integrity Check: Given an array of objects representing books with title and author, use every to ensure all objects have both properties defined.
+Find
+Finding the First Match: Given an array of product objects with id, name, and price, use find to locate the first product with a price greater than $100.
+Finding by Condition: Given an array of employee objects with name, department, and salary, use find to locate the first employee in the "Engineering" department.
+Finding the Longest String: Given an array of strings, use find to locate the longest string.
+Finding a Specific Nested Value: Given an array of objects with nested properties, use find to locate the first object where a nested property matches a given value.
+Finding the First Negative Number: Given an array of numbers, use find to locate the first negative number.
+Reduce
+Summing Values: Given an array of order objects with properties product and quantity, use reduce to calculate the total quantity of all orders.
+Counting Occurrences: Given an array of strings, use reduce to count how many times each string appears.
+Combining Objects: Given an array of objects with overlapping keys, use reduce to merge them into a single object, combining values for the same keys into arrays.
+Finding the Max Value: Given an array of numbers, use reduce to find the maximum value.
+Calculating Averages: Given an array of numbers, use reduce to calculate the average value.
+Some
+Checking for Specific Condition: Given an array of user objects with properties username and status, use some to check if any user has the status "inactive".
+Validation of Input: Given an array of strings, use some to check if any string contains special characters.
+Finding Prime Numbers: Given an array of numbers, use some with a helper function to check if there are any prime numbers.
+Array Contains Certain Elements: Given an array of book objects with title and genre, use some to check if any book belongs to the "Science Fiction" genre.
+Detecting Errors: Given an array of objects representing tasks with id and status, use some to check if any task has a status of "error".
+Combination & Miscellaneous
+Filtering and Mapping: Given an array of employee objects with name, department, and salary, use filter to get employees with salaries above a certain amount and map to return their names.
+Calculating Total Cost: Given an array of shopping cart items, each with price and quantity, use map and reduce to calculate the total cost.
+Transforming Nested Arrays: Given an array of arrays where each inner array contains a person's first and last names, use map and reduce to transform it into an array of full names.
+Generating Report: Given an array of sales data with product, unitsSold, and pricePerUnit, use map and reduce to generate a report showing total sales for each product.
+Flattening Nested Structures: Given an array of objects, each containing an array of items, use map and reduce to flatten the structure into a single array of items.
+Finding Unique Elements: Given an array of numbers, use reduce to find all unique numbers.
+Counting Properties: Given an array of objects, use reduce to count the occurrence of each unique property value.
+Filtering and Reducing: Given an array of product objects with category and price, use filter to get products in a specific category and reduce to calculate the total price.
+Mapping and Checking Conditions: Given an array of user objects with name and age, use map to get the ages and some to check if any user is above 18.
+Transforming Data Structure: Given an array of objects with key and value properties, use map and reduce to convert it into a single object where each key is a property and value is its value.
+Filtering Nested Arrays: Given an array of arrays where each inner array contains numerical data, use filter to remove inner arrays that contain any negative numbers.
+Generating Summaries: Given an array of article objects with title and content, use map to create summaries (first 50 characters of content) for each article.
+Verifying Data: Given an array of objects with id and value, use every to check if all values are above a certain threshold.
+Finding Object by Nested Property: Given an array of objects where each object contains a nested object with various properties, use find to locate the object with a specific nested property value.
+Validating Form Input: Given an array of form input objects with name and value, use every to check if all inputs have non-empty values.
+Grouping Data: Given an array of objects with type and data, use reduce to group the objects by type and accumulate the data.
+Creating a Search Function: Given an array of objects representing items in a store with properties name, category, and price, implement a search function using filter that returns items matching a keyword.
+Generating URL Slugs: Given an array of blog post titles, use map to create URL-friendly slugs for each title.
+Validating Data Structure: Given an array of objects, use every to check if all objects have a specific set of properties.
+Calculating Statistics: Given an array of numbers, use reduce to calculate various statistics like sum, average, and standard deviation.

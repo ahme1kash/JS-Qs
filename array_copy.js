@@ -1,5 +1,6 @@
-let arr1 = ["item1","item2"]
-let arr2 = [...arr1]
+let arr1 = ["item1", "item2"]
+let arr = ["john"]
+let arr2 = [...arr, ...arr1]
 let arr3 = arr1.slice(0)
 let arr4 = [].concat(arr1)
 
@@ -13,4 +14,4 @@ console.log(arr1)
 
 
 console.log('hello'.concat("world"))
-console.log([2,3].concat([1,2]))
+console.log([2, 3].concat([1, 2]))
